@@ -11,6 +11,7 @@ def directors_totals(source)
     director_index += 1
   end
   result
+binding pry
 end
 
 
