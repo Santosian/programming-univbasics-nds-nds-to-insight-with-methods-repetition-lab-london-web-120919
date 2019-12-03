@@ -33,11 +33,10 @@ def list_of_directors(source)
   name_idx = 0
   while dir_idx < source[name_idx].length
     list_of_directors << source[name_idx]
-    dir_idx += 1
-    name_idx += 1
+  
   end
-return list_of_directors
-
+  binding pry
+  return list_of_directors
 end
 binding pry
 
