@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
-
+require 'pry'
 
 def directors_totals(source)
   result = {}
@@ -30,7 +30,8 @@ def list_of_directors(source)
   
   list_of_directors = []
   name_idx = 0
-  source[0].length = 2
+  pp source[name_idx].length
+  binding pry
   while name_idx < source[name_idx].length
     list_of_directors << source[name_idx][:name]
     name_idx += 1
