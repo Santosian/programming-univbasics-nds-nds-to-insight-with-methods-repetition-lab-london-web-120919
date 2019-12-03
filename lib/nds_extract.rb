@@ -46,6 +46,8 @@ while idx < arr[idx].length
   puts arr[idx]
 end
 
+
+
 def total_gross(source)
   # Write this implementation
   #
