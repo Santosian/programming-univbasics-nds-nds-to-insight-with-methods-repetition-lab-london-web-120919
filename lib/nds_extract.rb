@@ -46,7 +46,12 @@ while idx < arr[idx].length
   puts arr[idx]
 end
 
-
+# ESTO SI
+arr = [1,2,3]
+idx = 0
+while idx < arr.length
+  puts arr[idx]
+end
 
 def total_gross(source)
   # Write this implementation
