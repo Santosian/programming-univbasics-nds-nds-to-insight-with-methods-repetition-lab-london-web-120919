@@ -10,12 +10,7 @@ def directors_totals(source)
     result[director[:name]] = gross_for_director(director)
     director_index += 1
   end
-=begin
-  pp "AAAAAAAAAAAAAAAAAAAA"
- pp result
- binding pry
-=end
-  pp result
+return result
  
 end
 
@@ -58,6 +53,7 @@ def total_gross(source)
   while idx_dir < list_of_directors.length
     idx_film = 0 
     while idx_film < directors_totals
+      
     end
     
   end
