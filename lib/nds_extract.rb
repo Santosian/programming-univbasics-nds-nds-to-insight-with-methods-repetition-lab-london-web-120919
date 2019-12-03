@@ -31,7 +31,7 @@ def list_of_directors(source)
   list_of_directors = []
   name_idx = 0
   while name_idx < source.length
-    list_of_directors << source[name_idx][:name]extract_locale_from_tld
+    list_of_directors << source[name_idx][:name]
     name_idx += 1
   end
  return list_of_directors
