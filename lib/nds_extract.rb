@@ -69,6 +69,7 @@ def total_gross(source)
   money_dirs = directors_totals(source)
   
   while idx_dir < noms_de_dirs.length
+    # Key is a string
     key = idx_dir
     total_all_directors += money_dirs[key]
     idx_dir += 1 
