@@ -71,7 +71,7 @@ def total_gross(source)
   while idx_dir < noms_de_dirs.length
     # Key is a string
     key = noms_de_dirs[idx_dir]
-    total_all_directors += money_dirs[noms_de_dirs[idx_dir]]
+    total_all_directors += money_dirs[key]
     idx_dir += 1 
   end
   
