@@ -33,12 +33,11 @@ def list_of_directors(source)
   while name_idx < source[name_idx].length
     list_of_directors << source[name_idx]
   end
-  
   name_idx += 1
   return list_of_directors
 end
 
-binding pry
+
 
 def total_gross(source)
   # Write this implementation
