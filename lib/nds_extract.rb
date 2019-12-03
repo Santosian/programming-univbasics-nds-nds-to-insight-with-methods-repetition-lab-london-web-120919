@@ -68,7 +68,7 @@ def total_gross(source)
   while idx_dir_outer < noms_de_dirs.length
     idx_dir_inner = 0
     money_dirs = directors_totals(source)
-    while idx_dir_inner < money_dirs.lenght
+    while idx_dir_inner < money_dirs.length
         total_all_directors << money_dirs[idx_dir_inner]
         idx_dir_inner += 1
     end
