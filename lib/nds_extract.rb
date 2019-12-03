@@ -10,8 +10,9 @@ def directors_totals(source)
     result[director[:name]] = gross_for_director(director)
     director_index += 1
   end
+  pp "AAAAAAAAAAAAAAAAAAAA"
  pp result
-binding pry
+ binding pry
 end
 
 
