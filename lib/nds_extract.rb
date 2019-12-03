@@ -58,6 +58,8 @@ def total_gross(source)
   while idx_dir < list_of_directors.length
     idx_film = 0 
     while idx_film < directors_totals
+    end
+    
   end
   
   
