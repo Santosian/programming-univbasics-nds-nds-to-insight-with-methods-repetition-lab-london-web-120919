@@ -46,6 +46,10 @@ def total_gross(source)
   # 1. directors_totals: returns a Hash of { dir_name => gross }
   # 2. list_of_directors: names provides an Array of directors names (use
   
+  total_all_directors = 0
+  idx_dir = 0
+  while idx_dir < list_of_directors.length
+  
   
   
   
