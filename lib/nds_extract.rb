@@ -12,7 +12,7 @@ def directors_totals(source)
   end
   result
 end
-
+binding pry
 def gross_for_director(d)
   total = 0
   index = 0
@@ -49,6 +49,9 @@ def total_gross(source)
   total_all_directors = 0
   idx_dir = 0
   while idx_dir < list_of_directors.length
+    idx_film = 0 
+    while idx_film < directors_totals
+  end
   
   
   
