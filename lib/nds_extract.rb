@@ -53,13 +53,11 @@ def total_gross(source)
   while idx_dir_outer < list_of_directors.length
       idx_dir_inner = 0
     while idx_dir_inner < directors_totals[idx_dir_inner].lenght
-                      directors_totals[idx_dir_inner][]
+        total_all_directors << directors_totals[idx_dir_inner]
+        idx_dir_inner += 1
     end
-    
+    idx_dir_outer += 1 
   end
-  
-  
-  
   
   #
   # Visit each key (i.e. director name), look up the value in the hash
