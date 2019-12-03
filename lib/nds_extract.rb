@@ -26,12 +26,13 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
+  
   pp directors_database
   binding pry
   # Write this implementation
   list_of_directors = []
   dir_idx = 0 
-  while dir_idx < source[]
+
 end
 
 def total_gross(source)
