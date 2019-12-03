@@ -63,11 +63,13 @@ def total_gross(source)
   
   total_all_directors = 0
   idx_dir = 0
+  # Array de string
   noms_de_dirs = list_of_directors(source)
+  # Hash donde las llaves son string y los valores son Integer
   money_dirs = directors_totals(source)
   
   while idx_dir < noms_de_dirs.length
-    key = 
+    key = idx_dir
     total_all_directors += money_dirs[key]
     idx_dir += 1 
   end
