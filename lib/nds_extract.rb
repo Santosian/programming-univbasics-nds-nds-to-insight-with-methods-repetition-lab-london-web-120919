@@ -39,6 +39,7 @@ def list_of_directors(source)
  return list_of_directors
 end
 
+=begin
 # ESTO NO
 arr = [1,2,3]
 idx = 0
@@ -52,6 +53,7 @@ idx = 0
 while idx < arr.length
   puts arr[idx]
 end
+=end
 
 def total_gross(source)
   # Write this implementation
@@ -62,14 +64,18 @@ def total_gross(source)
   
   total_all_directors = 0
   idx_dir_outer = 0
-  while idx_dir_outer < list_of_directors.length
+  noms_de_dirs = list_of_directors(source)
+  while idx_dir_outer < noms_de_dirs.length
     idx_dir_inner = 0
-    while idx_dir_inner < directors_totals[idx_dir_inner].lenght
-        total_all_directors << directors_totals[idx_dir_inner]
+    money_dirs = directors_totals(source)
+    while idx_dir_inner < money_dirs.lenght
+        total_all_directors << money_dirs[idx_dir_inner]
         idx_dir_inner += 1
     end
     idx_dir_outer += 1 
   end
+  
+return total_all_directors
   
   #
   # Visit each key (i.e. director name), look up the value in the hash
