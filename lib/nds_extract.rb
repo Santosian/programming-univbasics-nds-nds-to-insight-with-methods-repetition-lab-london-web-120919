@@ -32,8 +32,8 @@ def list_of_directors(source)
   name_idx = 0
   while name_idx < source[name_idx].length
     list_of_directors << source[name_idx][:name]
+    name_idx += 1
   end
-  name_idx += 1
  list_of_directors
 end
 
