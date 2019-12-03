@@ -10,8 +10,7 @@ def directors_totals(source)
     result[director[:name]] = gross_for_director(director)
     director_index += 1
   end
-return result
- 
+  return result
 end
 
 
@@ -63,19 +62,15 @@ def total_gross(source)
   # 2. list_of_directors: names provides an Array of directors names (use
   
   total_all_directors = 0
-  idx_dir_outer = 0
+  idx_dir = 0
   noms_de_dirs = list_of_directors(source)
-  while idx_dir_outer < noms_de_dirs.length
-    idx_dir_inner = 0
-    money_dirs = directors_totals(source)
-    while idx_dir_inner < money_dirs.length
-        total_all_directors << money_dirs[idx_dir_inner]
-        idx_dir_inner += 1
-    end
-    idx_dir_outer += 1 
+  money_dirs = directors_totals(source)
+  while idx_dir < noms_de_dirs.length
+    total_all_directors += money_dirs[idx_dir][]
+    idx_dir += 1 
   end
   
-return total_all_directors
+  return total_all_directors
   
   #
   # Visit each key (i.e. director name), look up the value in the hash
