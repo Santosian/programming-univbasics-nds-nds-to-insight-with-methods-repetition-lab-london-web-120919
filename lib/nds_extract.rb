@@ -13,6 +13,7 @@ def directors_totals(source)
   pp "AAAAAAAAAAAAAAAAAAAA"
  pp result
  binding pry
+ 
 end
 
 
