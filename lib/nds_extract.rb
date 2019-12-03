@@ -29,15 +29,15 @@ def list_of_directors(source)
   # Write this implementation
   
   list_of_directors = []
-  dir_idx = 0 
   name_idx = 0
-  while dir_idx < source[name_idx].length
+  while name_idx < source[name_idx].length
     list_of_directors << source[name_idx]
-  
   end
-  binding pry
+  
+  name_idx += 1
   return list_of_directors
 end
+
 binding pry
 
 def total_gross(source)
