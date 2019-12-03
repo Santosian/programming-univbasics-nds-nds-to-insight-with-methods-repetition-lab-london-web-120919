@@ -65,8 +65,9 @@ def total_gross(source)
   idx_dir = 0
   noms_de_dirs = list_of_directors(source)
   money_dirs = directors_totals(source)
+  
   while idx_dir < noms_de_dirs.length
-    total_all_directors += money_dirs[idx_dir][]
+    total_all_directors += money_dirs[idx_dir]
     idx_dir += 1 
   end
   
