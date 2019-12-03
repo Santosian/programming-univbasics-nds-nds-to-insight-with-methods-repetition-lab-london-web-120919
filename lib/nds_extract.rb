@@ -32,6 +32,7 @@ def list_of_directors(source)
   # Write this implementation
   list_of_directors = []
   dir_idx = 0 
+  while
 
 end
 
