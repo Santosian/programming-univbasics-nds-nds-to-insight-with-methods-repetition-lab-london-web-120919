@@ -15,7 +15,7 @@ def directors_totals(source)
  pp result
  binding pry
 =end
-  return result
+  pp result
  
 end
 
