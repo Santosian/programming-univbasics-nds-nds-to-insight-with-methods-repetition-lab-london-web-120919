@@ -30,8 +30,6 @@ def list_of_directors(source)
   
   list_of_directors = []
   name_idx = 0
-  pp source[name_idx].length
-  binding pry
   while name_idx < source[name_idx].length
     list_of_directors << source[name_idx][:name]
     name_idx += 1
