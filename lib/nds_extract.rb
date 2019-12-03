@@ -49,11 +49,11 @@ def total_gross(source)
   # 2. list_of_directors: names provides an Array of directors names (use
   
   total_all_directors = 0
-  idx_dir = 0
-  while idx_dir < list_of_directors.length
-    idx_film = 0 
-    while idx_dir< directors_totals
-      
+  idx_dir_outer = 0
+  while idx_dir_outer < list_of_directors.length
+      idx_dir_inner = 0
+    while idx_dir_inner < directors_totals[idx_dir_inner].lenght
+                      directors_totals[idx_dir_inner][]
     end
     
   end
